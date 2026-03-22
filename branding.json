@@ -1,0 +1,27 @@
+{
+    "brand":
+    {
+        "organizationShortName": "DATABASE",
+        "organizationLongName": "DataBase",
+        "website": "",
+        "email": "",
+        "mobile": "",
+        "slogan": "Advance Query Optimization",
+        "colors": {"primary": "#FFDF00", "secondary": "#004040"},
+        "logo":
+            {
+                "title": "",
+                "favicon": ""}, "chatbot": {"avatar": "", "face": ""
+            },
+        
+        "socialMedia":
+            {
+                "blog": "",
+                "linkedin": "",
+                "instagram": "",
+                "github": "",
+                "x": "",
+                "youtube": ""
+            }
+    }
+}
