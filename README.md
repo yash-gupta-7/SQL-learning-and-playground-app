@@ -1,8 +1,8 @@
-# SQL Interactive Environment
+SQL Interactive Environment
 
 A complete interactive SQL learning and playground application built with Python, Gradio, and MySQL. This project provides a user-friendly interface to manage a database, explore advanced SQL concepts, and run custom queries in an interactive playground.
 
-## Features
+Features
 
 The Gradio web interface includes the following tabs:
 
@@ -17,7 +17,7 @@ The Gradio web interface includes the following tabs:
 5. **SQL MASTERY GUIDE**  
    A basic markdown cheatsheet outlining essential SQL commands.
 
-## Prerequisites
+Prerequisites
 
 Before running the app, ensure you have the following installed:
 - Python 3.x
@@ -33,7 +33,7 @@ You can typically install these via `pip`:
 pip install gradio pandas mysql-connector-python
 ```
 
-## Database Configuration
+Database Configuration
 
 The application expects a local MySQL database setup. You may need to review or update the connection credentials in `db.py`:
 
@@ -47,13 +47,13 @@ DB_CONFIG = {
 
 The script will automatically create the required database (`sql_teaching`) and tables (`students`, `courses`, `enrollments`) on initialization.
 
-## Application Structure
+Application Structure
 
 - **`app.py`**: The frontend built using Gradio. It defines the layout, tabs, state management, and wires frontend inputs to the backend database queries. Also expects a `branding.json` for application title and slogan.
 - **`db.py`**: The backend handling the MySQL connections and executing SQL operations. Also uses Pandas to structure the returned query data for display in Gradio DataFrames.
 - **`branding.json`**: Make sure you have this JSON file in the same directory containing keys like `brand['organizationShortName']` and `brand['slogan']`.
 
-## How to Run
+How to Run
 
 1. Ensure MySQL server is running locally.
 2. Update the `DB_CONFIG` credentials in `db.py`.
